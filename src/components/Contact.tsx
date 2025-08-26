@@ -11,7 +11,6 @@ export const Contact = () => {
   }>({ type: null, message: '' });
 
   useEffect(() => {
-    // Initialize EmailJS with public key
     if (import.meta.env.VITE_EMAILJS_PUBLIC_KEY) {
       emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
     }
