@@ -4,6 +4,14 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+  title: 'Real-Time Chat App',
+  description: 'A full-featured real-time chat application enabling instant messaging between users. It supports user authentication, private and group chats, online/offline status indicators, and message notifications. Built with WebSocket for seamless real-time communication. 💬⚡',
+  image: 'https://res.cloudinary.com/do7ejnk1v/image/upload/v1756171854/Chat-app_jhhkg1.png', 
+  github: 'https://github.com/shivakumar454/RealTime-chatapp',
+  demo: 'https://realtime-chat-app.vercel.app/',
+  tags: ['React', 'Node.js', 'Express.js', 'Socket.io', 'MongoDB', 'JWT']
+},
+  {
     title: 'Rescue Ready',
     description: 'Rescue Ready is a disaster management platform that aids emergency response and recovery. It offers real-time weather updates, emergency helpline access, past disaster records, and volunteer coordination. By integrating NWS and FEMA APIs, it enhances situational awareness and communication, ensuring quick access to critical resources for efficient disaster response. 🚑🌍',
     image: 'https://media.istockphoto.com/id/1062305448/photo/hurricane-season.jpg?s=612x612&w=0&k=20&c=mvCo41hEr7gH55hJc8YHv3SRnZJbZrsg31JhnnWS_80=',
@@ -12,6 +20,22 @@ const projects = [
     tags: ['React', 'Node.js', 'MongoDB', 'Express','Javascript']
   },
   {
+  title: 'Lost & Found',
+  description: 'A platform that helps students report lost items and find their belongings easily within the campus. It features user authentication, item posting with images, search and filter options, and real-time status updates. The system streamlines communication between finders and owners, reducing time and effort in retrieving lost items. 🎒🔍',
+  image: 'https://res.cloudinary.com/do7ejnk1v/image/upload/v1756171451/lostnfound_en3k9e.jpg',
+  github: 'https://github.com/shivakumar454/LostNFound',
+  demo: 'https://lostnfoundfrontend.onrender.com/',
+  tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT']
+  },
+   {
+    title: 'SmartSustain:Urban Sustainability Dashboard',
+    description:'SmartSustain is a real-time dashboard tracking **water, waste, traffic, air quality, and pollution** across city zones. It leverages IoT data and analytics to aid city planners and citizens in making informed decisions for a smarter, greener future. With real-time insights and predictive analytics, it enhances urban sustainability, environmental management, and policy planning. 🌍🚀',
+    image: '  https://media.istockphoto.com/id/1414916304/photo/sustainable-development-goal-concept-hands-holding-global-communication-network-with.jpg?s=612x612&w=0&k=20&c=YS85pGwUdncDdbA7GvVJWZOG1-oS61eOJxYZg_znHKg=',
+     github: 'https://urban-sustain.vercel.app/',
+    demo: 'https://demo.com',
+    tags: ['React', 'Chartjs', 'Css']
+  },
+    {
     title: 'MULTIIO',
     description:' A digital mall platform integrating shopping, entertainment, and customer engagement. It features live inventory updates, virtual navigation, event alerts, personalized shopping, and interactive food ordering. With loyalty programs, digital coupons, and seamless payments, it enhances the shopping experience while keeping customers informed and engaged. 🛍️🎉' ,
     image: 'https://cdn.pixabay.com/photo/2017/07/31/11/43/architecture-2557567_640.jpg',
@@ -19,14 +43,6 @@ const projects = [
     demo: 'https://proj-multiio.vercel.app/',
     tags: ['HTML', 'CSS', 'Javascript']
   },
-  {
-    title: 'SmartSustain:Urban Sustainability Dashboard',
-    description:'SmartSustain is a real-time dashboard tracking **water, waste, traffic, air quality, and pollution** across city zones. It leverages IoT data and analytics to aid city planners and citizens in making informed decisions for a smarter, greener future. With real-time insights and predictive analytics, it enhances urban sustainability, environmental management, and policy planning. 🌍🚀',
-    image: '  https://media.istockphoto.com/id/1414916304/photo/sustainable-development-goal-concept-hands-holding-global-communication-network-with.jpg?s=612x612&w=0&k=20&c=YS85pGwUdncDdbA7GvVJWZOG1-oS61eOJxYZg_znHKg=',
-    github: 'https://urban-sustain.vercel.app/',
-    demo: 'https://demo.com',
-    tags: ['React', 'Chartjs', 'Css']
-  }
 ];
 
 export const Projects = () => {
